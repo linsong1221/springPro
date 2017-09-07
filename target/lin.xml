@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archive>
+  <file sourceOnDisk="E:\IntelliJ IDEA 2017.2.3\workspace\springPro\target\lin\META-INF\MANIFEST.MF" targetInArchive="/META-INF/MANIFEST.MF" />
+  <dir sourceOnDisk="E:\IntelliJ IDEA 2017.2.3\workspace\springPro\srctwo" targetInArchive="/" />
+  <file sourceOnDisk="E:\IntelliJ IDEA 2017.2.3\workspace\springPro\src\main\webapp\WEB-INF\web.xml" targetInArchive="/WEB-INF/web.xml" />
+</archive>
+
