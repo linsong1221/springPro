@@ -7,6 +7,6 @@
     <title>Insert title here</title>
 </head>
 <body>
-<h1>sss´ó·ù¶È</h1>
+<h1>Success Page !!</h1>
 </body>
 </html>
