@@ -1,10 +1,25 @@
 package com.song.entities;
 
 public class User {
+    private Integer id;
     private String username;
     private String password;
     private int age;
-    private Address address;
+
+    public User(Integer id, String username, String password, int age) {
+        this.id = id;
+        this.username = username;
+        this.password = password;
+        this.age = age;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public String getUsername() {
         return username;
@@ -30,21 +45,13 @@ public class User {
         this.age = age;
     }
 
-    public Address getAddress() {
-        return address;
-    }
-
-    public void setAddress(Address address) {
-        this.address = address;
-    }
-
     @Override
     public String toString() {
         return "User{" +
-                "username='" + username + '\'' +
+                "id=" + id +
+                ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", age=" + age +
-                ", address=" + address +
                 '}';
     }
 }

@@ -21,7 +21,14 @@
 </form>
 
 <a href="/aaa/testModelAndView">test Model And View</a>
+<a href="/aaa/testMap">test Model Map</a>
 
 
+<form action="aaa/testModelAttribute" method="post">
+    <input type="hidden" name="id" value="1">
+    username:<input type="text" name="username" value="Tom">
+    age:<input type="text" name="age" value="24">
+    <input type="submit" value="submit">
+</form>
 </body>
 </html>

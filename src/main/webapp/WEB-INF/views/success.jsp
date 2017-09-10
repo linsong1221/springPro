@@ -9,5 +9,6 @@
 <body>
 <h1>Success Page !!</h1>
 Date: ${requestScope.time}
+testMap: ${requestScope.names}
 </body>
 </html>
