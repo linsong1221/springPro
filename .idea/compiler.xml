@@ -10,9 +10,8 @@
         <module name="springPro" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="lin" target="1.5" />
-      <module name="springPro" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="springPro" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

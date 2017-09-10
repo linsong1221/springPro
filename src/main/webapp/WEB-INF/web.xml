@@ -11,6 +11,7 @@
   <filter-mapping>
     <filter-name>HiddenHttpMethodFilter</filter-name>
     <url-pattern>/*</url-pattern>
+    <dispatcher>FORWARD</dispatcher>
   </filter-mapping>
 
   <!-- The front controller of this Spring Web application, responsible for handling all application requests -->
