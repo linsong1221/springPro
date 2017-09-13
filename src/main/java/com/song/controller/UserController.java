@@ -91,6 +91,19 @@ public class UserController {
         System.out.println("testViewAndViewResolver");
         return SUCCESS;
     }
+//    测试自定义视图解析器 27集
+    @RequestMapping("/testView")
+    public String testView(){
+        System.out.println("testView");
+        return "helloView";
+    }
+//    重定向与转发 在return 后面加 redirect或forward
+    @RequestMapping(value = "/testForwardAndRedirect")
+    public String forwardAndRedirect(){
+        System.out.println("TestRedirctANd Forward ....");
+        return "redirect:/index.jsp";
+    }
+
 
 
 }

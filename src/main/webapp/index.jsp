@@ -31,6 +31,8 @@
     <input type="submit" value="submit">
 </form>
 <br/>
-<a href="/aaa/testViewAndViewResolver">testViewAndViewResolver</a>
+<a href="/aaa/testViewAndViewResolver">testViewAndViewResolver</a><br/>
+<a href="/aaa/testView">TestView 自定义视图</a><br/>
+<a href="/aaa/testForwardAndRedirect">TestForwardAnd Redirct</a>
 </body>
 </html>

@@ -7,6 +7,7 @@
 
     <context:component-scan base-package="com"/>
 
+    <!--配置试图解析器-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/views/" />
         <property name="suffix" value=".jsp" />
@@ -20,4 +21,10 @@
     <mvc:view-controller path="/success/bbb" view-name="success" />
     <!--在实际开发中通常都需配置mvc:annoaction driben标签,不然上面的配置后 RequestMapping不好用-->
     <mvc:annotation-driven></mvc:annotation-driven>
+
+    <!--配置试图解析器,使用试图的名字解析试图-->
+    <!--通过order属性定义试图的优先级，order越小优先级越高，只要指定了就比InternalResourceViewResolver的order小-->
+    <bean class="org.springframework.web.servlet.view.BeanNameViewResolver">
+        <property name="order" value="100"></property>
+    </bean>
 </beans>
