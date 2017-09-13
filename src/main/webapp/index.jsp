@@ -30,5 +30,7 @@
     age:<input type="text" name="age" value="24">
     <input type="submit" value="submit">
 </form>
+<br/>
+<a href="/aaa/testViewAndViewResolver">testViewAndViewResolver</a>
 </body>
 </html>

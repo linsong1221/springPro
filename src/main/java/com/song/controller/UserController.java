@@ -86,5 +86,11 @@ public class UserController {
         return SUCCESS;
     }
 
+    @RequestMapping(value = "/testViewAndViewResolver")
+    public String testViewAndViewResolver(){
+        System.out.println("testViewAndViewResolver");
+        return SUCCESS;
+    }
+
 
 }
