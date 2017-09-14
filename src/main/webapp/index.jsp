@@ -34,5 +34,8 @@
 <a href="/aaa/testViewAndViewResolver">testViewAndViewResolver</a><br/>
 <a href="/aaa/testView">TestView 自定义视图</a><br/>
 <a href="/aaa/testForwardAndRedirect">TestForwardAnd Redirct</a>
+
+<h3>测试 Restful CRUD</h3>
+<a href="/emps">List All Employees</a>
 </body>
 </html>
